@@ -38,7 +38,7 @@ title: "My Resumé"
 
 * Member of the [Trusted Postgres Architect](https://github.com/EnterpriseDB/tpa) (TPA) product team.
 
-* Led development of an automatic file checksum validation feature to pinpoint troubleshooting of deployed clusters by comparing the TPA installations in the customer's environment against the released package."
+* Led development of an automatic file checksum validation feature to pinpoint troubleshooting of deployed clusters by comparing the TPA installations in the customer's environment against the released package.
 
 * Led migration of all CI/CD and integration testing Github Action workflows as part of the open-sourcing effort for TPA to enhance code security. This increased adoption of TPA by the community.
 
@@ -133,7 +133,7 @@ title: "My Resumé"
     <endValue> Feb 2025 </endValue>
 </line>
 
- "Authored ['Representing Graphs in PostgreSQL with SQL/PGQ'](https://www.enterprisedb.com/blog/representing-graphs-postgresql-sqlpgq) which became the most-viewed post of the month with over 7,500 hits. Gained traction and generated discussion on both YCombinator Hacker News and lobste.rs boards."
+ Authored ['Representing Graphs in PostgreSQL with SQL/PGQ'](https://www.enterprisedb.com/blog/representing-graphs-postgresql-sqlpgq) which became the most-viewed post of the month with over 7,500 hits. Gained traction and generated discussion on both YCombinator Hacker News and lobste.rs boards.
 </br>
 
 <key> Accepted to JMU Summer Startup Accelerator Cohort </key>
