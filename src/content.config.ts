@@ -16,4 +16,14 @@ const blog = defineCollection({
 		}),
 });
 
-export const collections = { blog };
+const resume = defineCollection({
+	// Load Markdown and MDX files in the `src/content/blog/` directory.
+	loader: glob({ base: './src/content/resume', pattern: '**/*.{md,mdx}' }),
+	// Type-check frontmatter using a schema
+	schema: () =>
+		z.object({
+			title: z.string(),
+		}),
+});
+
+export const collections = { blog, resume };

@@ -1,0 +1,20 @@
+---
+import BaseHead from "../components/BaseHead.astro";
+import Footer from "../components/Footer.astro";
+import Header from "../components/Header.astro";
+import "../styles/resume.css";
+---
+
+<html lang="en">
+    <head>
+        <BaseHead title="Resume" description="John Nevin's Resume" />
+    </head>
+
+    <body>
+        <Header />
+        <main>
+            <slot />
+        </main>
+        <Footer />
+    </body>
+</html>

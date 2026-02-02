@@ -1,0 +1,144 @@
+pageheader {
+    color: "#232129";
+    font-family: -apple-system, "Roboto", sans-serif, serif;
+    font-size: 12px;
+    margin: 12px 8px;
+}
+
+name {
+    color: slategray;
+    align-self: center;
+    font-size: xx-large;
+    text-transform: uppercase;
+    display: block;
+    text-align: center;
+}
+
+li {
+    font-size: medium;
+    margin-top: -2px;
+}
+
+p {
+    font-size: medium;
+}
+
+/* const BREAKPOINTS = {
+  xxs: "300px",
+  xs: "420px",
+  sm: "576px",
+  md: "768px",
+  lg: "900px",
+  xl: "1200px",
+  xxl: "1536px",
+}; */
+
+container {
+    display: flex;
+    flex-flow: column;
+    margin: 12px 8px;
+}
+
+subtitle {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-between;
+}
+
+h3 {
+    font-size: 16px;
+    text-transform: uppercase;
+    color: gray;
+    display: block;
+}
+
+h4 {
+    font-size: 18px;
+    text-align: center;
+}
+
+key {
+    font-size: 16px;
+    font-weight: bold;
+    display: block;
+    margin-right: 24px;
+}
+
+a {
+    display: inline;
+    text-align: end;
+    color: darkslategray;
+}
+
+startValue {
+    font-size: 16px;
+    display: inline;
+}
+
+line {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+italicStartValue {
+    font-size: 16px;
+    display: block;
+    font-style: italic;
+}
+
+endValue {
+    font-size: 16px;
+    display: block;
+    text-align: end;
+}
+
+italicValue {
+    font-size: 16px;
+    font-style: italic;
+    display: block;
+    text-align: end;
+}
+
+
+/* @media (min-width: ${BREAKPOINTS.xxs}) {
+    margin: 12px 5%;
+  }
+  @media (min-width: ${BREAKPOINTS.xs}) {
+    margin: 12px 10%;
+  }
+  @media (min-width: ${BREAKPOINTS.md}) {
+    margin: 12px 15%;
+  }
+  @media (min-width: ${BREAKPOINTS.lg}) {
+    margin: 12px 20%;
+  }
+  @media (min-width: ${BREAKPOINTS.xl}) {
+    margin: 12px 25%;
+  }
+`; */
+
+main {
+	width: 720px;
+	max-width: calc(100% - 2em);
+	margin: auto;
+	padding: 3em 1em;
+}
+
+linkIcon {
+    color: darkslategray;
+    font-size: 48px;
+    align-self: end;
+    font-weight: normal;
+    text-decoration: none;
+    font-family: "Times New Roman", Times, serif;
+
+    &:hover {
+        text-decoration: underline;
+    }
+
+    &:focus {
+        text-decoration: underline;
+    }
+}
