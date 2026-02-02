@@ -1,11 +1,11 @@
 My name is **John Nevin** and I am a senior software engineer.
 
-I work professionally with Python, and outside of work I enjoy creating with TypeScript/ECMAScript (for both Svelte and React projects), Kotlin (mainly for Android application development), GDScript (language for the Godot Game Engine), C++ (for writing Game Boy Advance games with the Butano Engine)
+I work professionally with Python, and outside of work I enjoy creating with Elixir/Erlang (functional programming languages used by the high-performance Phoenix Framework), TypeScript/ECMAScript (for both Svelte and React projects), Kotlin (mainly for Android application development), GDScript (language for the Godot Game Engine) and dabble in C++ (for writing Game Boy Advance games with the Butano Engine.
 
 Most recently I worked with the [Trusted Postgres Architect (TPA)](https://www.enterprisedb.com/docs/tpa/latest/) team building a novel [open-source](https://github.com/EnterpriseDB/tpa) orchestration tool developed by EnterpriseDB (EDB) that uses Ansible to deploy Postgres clusters according to EDB's recommendations. It supports many different best-practice architecutres including active-active replication, backup and recovery management, and automatic failover and disaster recovery. It is easy to use and driven by a declarative infrastructure-as-code approach to allow for deterministic and idempotent deploys simply by specifying changes in a cluster configuration file.
 
 My current obsession is Rust, learned from the excellent books "Rust for Rustaceans" and "The Rust Programming Language, 3rd Edition" (which is in pre-release). This is mainly motivated by the incredible [pgrx](https://github.com/pgcentralfoundation/pgrx) framework for building Postgres extensions in Rust! My goal is to publish `pgautograph`, a tool to automatically analyze and transform the relationships in database schemas into Property Graphs so they can be queried using SQL Property Graph Queries (SQL/PGQ). See more in my [blog post](http://localhost:4321/blog/representing-graphs-pg/), originally published on the [EDB Technical Blog](https://www.enterprisedb.com/blog/representing-graphs-postgresql-sqlpgq). Stay tuned for more!
 
-Outside of work, I am passionate about running and cycling, as well as urbanism, pedestrian/cyclist safety and environmental air quality exposure.
+I am passionate about running and cycling, as well as urbanism, pedestrian/cyclist safety and environmental air quality exposure. I have an academic interest in functional programming paradigms, category theory, as well as ontology and logic.
 
 I keep links to the personal and academic projects I have worked on over the years, and will occasionally write posts about implementations and lesssons learned from them!
