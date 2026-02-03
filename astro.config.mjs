@@ -6,7 +6,8 @@ import { defineConfig } from 'astro/config';
 
 // https://astro.build/config
 export default defineConfig({
-  site: 'https://nevindev.github.io',
+  output: 'static',
+  site: 'https://nevin.dev',
   integrations: [mdx(), sitemap()],
 
   vite: {
