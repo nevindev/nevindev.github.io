@@ -129,7 +129,7 @@ title: "My Resumé"
         <a href="https://nearmiss.me" target="_blank" rel="noreferrer">nearmiss.me</a>
         </br>
         <a href="https://github.com/nevindev/nearmiss" target="_blank" rel="noreferrer">Project Repository</a>
-        <italicStartValue>  React, PostgreSQL, GraphQL, tailwindcss, Leaflet</italicStartValue>
+        <italicStartValue>  Svelte, tailwindcss, IndexedDB, MapLibre </italicStartValue>
         <p>A Progressive Web Application for reporting near-miss incidents between pedestrians/cyclists and motorists. Automatically records location of incident and allows users to easily provide details in dynamic forms. Thousands of map features can be displayed due to GPU-accelerated vector tile rendering. Web form questionnaires are built dynamically by parsing JSON. All data is stored locally in the browser IndexedDB for full-offline capability and user-ownership of their own data and sharing decisions</p>
     </div>
 </subtitle>
